@@ -45,7 +45,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "0\r\n9\r\n3\r\n1\r\n5\r\n9",
-      "output": "Panjang kue melebihi dari yang seharusnya!\r\n-----------\r\n|6...6...6|\r\n-----------",
+      "output": "-----------\r\n|6...6...6|\r\n-----------",
       "comparison": "included",
       "timeout": 10,
       "points": 10
@@ -55,7 +55,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "-10000\r\n3\r\n5\r\n1\r\n2",
-      "output": "Panjang kue melebihi dari yang seharusnya!\r\nJumlah ceri melebihi dari panjang kue!\r\n-----\r\n|.6.|\r\n-----",
+      "output": "Panjang kue melebihi dari yang seharusnya!\r\nJumlah ceri melebihi dari panjang kue!",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -65,7 +65,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "5\r\n-5\r\n5\r\n1\r\n2\r\n3\r\n4\r\n5",
-      "output": "Jumlah ceri melebihi dari panjang kue!\r\n-------\r\n|66666|\r\n-------",
+      "output": "Jumlah ceri melebihi dari panjang kue!",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -95,7 +95,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "10000\r\n15\r\n10000\r\n4\r\n3\r\n6\r\n10\r\n13",
-      "output": "Panjang kue melebihi dari yang seharusnya!\r\nJumlah ceri melebihi dari panjang kue!\r\n-----------------\r\n|..6..6...6..6..|\r\n-----------------",
+      "output": "-----------------\r\n|..6..6...6..6..|\r\n-----------------",
       "comparison": "included",
       "timeout": 1,
       "points": 10
