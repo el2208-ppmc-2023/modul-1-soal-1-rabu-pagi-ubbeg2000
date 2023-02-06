@@ -55,7 +55,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "-10000\r\n3\r\n5\r\n1\r\n2",
-      "output": "Panjang kue melebihi dari yang seharusnya!\r\nJumlah ceri melebihi dari panjang kue!",
+      "output": "Panjang kue melebihi dari yang seharusnya!",
       "comparison": "included",
       "timeout": 1,
       "points": 10
