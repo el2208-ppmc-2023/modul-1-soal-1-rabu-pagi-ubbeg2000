@@ -5,7 +5,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "1\r\n0",
-      "output": "|.|",
+      "output": "---\r\n|.|\r\n---",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -15,7 +15,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "1\r\n1\r\n1",
-      "output": "|6|",
+      "output": "---\r\n|6|\r\n---",
       "comparison": "included",
       "timeout": 1,
       "points": 10
