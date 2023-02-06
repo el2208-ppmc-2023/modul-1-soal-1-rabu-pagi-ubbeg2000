@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1\r\n0",
+      "output": "|.|",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1\r\n1\r\n1",
+      "output": "|6|",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make main",
+      "run": "./main",
+      "input": "20\r\n20\r\n1\r\n3\r\n5\r\n7\r\n9\r\n11\r\n13\r\n15\r\n17\r\n19\r\n2\r\n4\r\n6\r\n8\r\n10\r\n12\r\n14\r\n16\r\n18\r\n20",
+      "output": "----------------------\r\n|66666666666666666666|\r\n----------------------",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make main",
+      "run": "./main",
+      "input": "20\r\n0",
+      "output": "----------------------\r\n|....................|\r\n----------------------",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make main",
+      "run": "./main",
+      "input": "0\r\n9\r\n3\r\n1\r\n5\r\n9",
+      "output": "Panjang kue melebihi dari yang seharusnya!\r\n-----------\r\n|6...6...6|\r\n-----------",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make main",
+      "run": "./main",
+      "input": "-10000\r\n3\r\n5\r\n1\r\n2",
+      "output": "Panjang kue melebihi dari yang seharusnya!\r\nJumlah ceri melebihi dari panjang kue!\r\n-----\r\n|.6.|\r\n-----",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make main",
+      "run": "./main",
+      "input": "5\r\n-5\r\n5\r\n1\r\n2\r\n3\r\n4\r\n5",
+      "output": "Jumlah ceri melebihi dari panjang kue!\r\n-------\r\n|66666|\r\n-------",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make main",
+      "run": "./main",
+      "input": "5\r\n1\r\n2",
+      "output": "-------\r\n|.6...|\r\n-------",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make main",
+      "run": "./main",
+      "input": "9\r\n2\r\n3\r\n4",
+      "output": "-----------\r\n|..66.....|\r\n-----------",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make main",
+      "run": "./main",
+      "input": "10000\r\n15\r\n10000\r\n4\r\n3\r\n6\r\n10\r\n13",
+      "output": "Panjang kue melebihi dari yang seharusnya!\r\nJumlah ceri melebihi dari panjang kue!\r\n-----------------\r\n|..6..6...6..6..|\r\n-----------------",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
